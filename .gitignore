@@ -1,0 +1,11 @@
+myenv/
+venv/
+env/
+.idea/
+.vscode/
+__pycache__/
+*.png
+*.ppm
+*.pkl
+*.docx
+*.log

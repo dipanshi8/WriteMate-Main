@@ -1,0 +1,57 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.myenv/
+*.env
+*.venv
+
+# IDE / Editor
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# ----------------------------
+# Project specific
+# ----------------------------
+
+# Uploaded files
+uploads/
+
+# Generated SVG outputs
+svg_outputs/
+*.svg
+
+# Model / pickle files
+*.pkl
+
+# Temporary images
+*.png
+*.ppm
+
+# ----------------------------
+# Docs & others
+# ----------------------------
+# Office docs
+*.docx
+
+# ----------------------------
+# Dependencies
+# ----------------------------
+# If you use pip freeze > requirements.txt
+# ignore everything except requirements.txt
+Pipfile
+Pipfile.lock
+poetry.lock
