@@ -42,22 +42,22 @@ This repository showcases the **software system**, including the **frontend UI a
 
 #### Authentication
 <p align="center">
-  <img src="screenshots/signin.png" width="45%" />
-  <img src="screenshots/signup.png" width="45%" />
+  <img src="screenshots/signin.jpeg" width="45%" />
+  <img src="screenshots/signup.jpeg" width="45%" />
 </p>
 
 #### Homepage & Landing
 <p align="center">
-  <img src="screenshots/home_page.png" width="30%" />
-  <img src="screenshots/homepage.png" width="30%" />
-  <img src="screenshots/homepagee.png" width="30%" />
+  <img src="screenshots/home_page.jpeg" width="30%" />
+  <img src="screenshots/homepage.jpeg" width="30%" />
+  <img src="screenshots/homepagee.jpeg" width="30%" />
 </p>
 
 #### Dashboard & Writing
 <p align="center">
-  <img src="screenshots/dashboard.png" width="30%" />
-  <img src="screenshots/write.png" width="30%" />
-  <img src="screenshots/document.png" width="30%" />
+  <img src="screenshots/dashboard.jpeg" width="30%" />
+  <img src="screenshots/write.jpeg" width="30%" />
+  <img src="screenshots/document.jpeg" width="30%" />
 </p>
 
 ### Backend Output
