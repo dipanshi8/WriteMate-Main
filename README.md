@@ -1,57 +1,94 @@
-# ✍️ WriteMate   DEMO URL: https://youtu.be/hYa2_TbZQ0w?si=911J33nuItAsphPe AT TS: 18:28
+# ✍️ WriteMate  
+**Demo:** https://youtu.be/hYa2_TbZQ0w?si=911J33nuItAsphPe *(Timestamp: 18:28)*
 
-> Empowering independence through assistive writing technology.
+> Assistive writing technology enabling independent writing for people with physical disabilities.
 
 ---
 
 ## 📌 Overview
 
-**WriteMate** is a portable patent published assistive device that enables individuals with physical disabilities to **write independently** — without the need for human scribes. It captures input via **voice** or **Indian Sign Language (ISL)**, processes it using **machine learning on a Raspberry Pi 5**, and outputs the text using a **CNC machine** that physically writes it onto paper.
+**WriteMate** is a **patent-published hardware + software project** that enables users to write independently using **voice input** or **Indian Sign Language (ISL)**.
+
+Input is processed using **machine learning on Raspberry Pi 5**, converted into text, and physically written on paper using a **CNC machine**.
+
+This repository showcases the **software system**, including the **frontend UI and backend services** developed by me.
 
 ---
 
 ## 🚀 Features
 
-- 🗣️ **Voice Input** — Converts spoken words into written text.
-- ✋ **ISL Gesture Input** — Interprets Indian Sign Language via camera and ML.
-- ✍️ **CNC-Based Writing** — Outputs recognized text onto paper using G-code.
-- 🧠 **On-Device ML Processing** — Real-time processing using Raspberry Pi 5.
-- 🌐 **Multilingual & Customizable** — Select language, pen type, and paper size.
-- 💼 **Portable & Easy to Use** — Designed for use in exams, schools, homes, or public spaces.
+- 🗣️ Voice-to-Text input  
+- ✋ Indian Sign Language (ISL) gesture recognition  
+- ✍️ CNC-based physical writing on paper  
+- 🧠 On-device ML processing (Raspberry Pi 5)  
+- 🌐 Web interface for user interaction  
 
 ---
 
-## 🧠 Project Motivation
+## 🧩 My Contribution
 
-People with disabilities such as **blindness**, **mutism**, or **non-functional arms** often depend on others to write for them during exams or documentation tasks. This dependency:
-- Reduces independence
-- Risks miscommunication
-- Limits dignity
+> Team project (hardware + ML)
 
-**WriteMate** eliminates these barriers by offering a self-reliant writing solution.
-
----
-
-## 🎯 Objectives
-
-- ✅ Design a self-contained system for independent writing.
-- ✅ Real-time input processing using ML on Raspberry Pi 5.
-- ✅ Integrate a CNC machine for text output on paper.
-- ✅ Allow flexible controls for pen type, paper size, and language.
-- ✅ Promote dignity and independence for differently-abled individuals.
+- Designed and developed the **complete frontend UI**
+- Built and integrated **Python backend services**
+- Connected ML outputs with the web interface
+- Implemented dashboards and writing workflows
 
 ---
 
-## ⚙️ System Architecture
+## 🖼️ Screenshots
 
-```text
-[ Voice Input / ISL Gestures ]
-            ↓
- [ ML Processing on Raspberry Pi 5 ]
-            ↓
- [ Text Conversion ]
-            ↓
- [ G-code Generation ]
-            ↓
- [ CNC Machine Writes on Paper ]
+### Frontend UI
 
+#### Authentication
+<p align="center">
+  <img src="screenshots/signin.png" width="45%" />
+  <img src="screenshots/signup.png" width="45%" />
+</p>
+
+#### Homepage & Landing
+<p align="center">
+  <img src="screenshots/home_page.png" width="30%" />
+  <img src="screenshots/homepage.png" width="30%" />
+  <img src="screenshots/homepagee.png" width="30%" />
+</p>
+
+#### Dashboard & Writing
+<p align="center">
+  <img src="screenshots/dashboard.png" width="30%" />
+  <img src="screenshots/write.png" width="30%" />
+  <img src="screenshots/document.png" width="30%" />
+</p>
+
+### Backend Output
+
+![Backend Processing](screenshots/backend.png)
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:** React (Vite), Tailwind CSS  
+**Backend:** Python, Flask  
+**ML / CV:** OpenCV, MediaPipe  
+**Hardware:** Raspberry Pi 5, CNC Machine  
+
+---
+
+## ▶️ Run Locally
+
+```bash
+# Clone repository
+git clone https://github.com/dipanshi8/WriteMate-Main.git
+cd WriteMate-main
+
+# Backend setup
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python Python/backend_file.py
+
+# Frontend setup
+cd frontend
+npm install
+npm run dev
